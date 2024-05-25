@@ -174,20 +174,132 @@ body {
   width: 100%;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
-.style11 {
-  margin-top: 42px;
-}
-.style11 .tranding {
+.tranding {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 42px;
+  margin-left: 185px;
+}
+
+.style11 {
+  margin-top: 42px;
 }
 .style11 .card-1 {
-  border: 2px solid red;
-  height: 357px;
+  width: 362px;
+  height: 363px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  position: relative;
+}
+.style11 .magna {
+  position: absolute;
+  top: 32px;
+  left: 41px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.style11 .magna-p {
+  width: 238px;
+  height: 36px;
+  margin-top: 68px;
+  margin-left: 37px;
+  color: #8a8787;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.style11 .magna-p2 {
+  width: 238px;
+  height: 36px;
+  margin-left: 37px;
+  color: #8a8787;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.style11 .clock {
+  margin-left: 40px;
+}
+.style11 .mago {
+  color: #8a8787;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -16px;
+  margin-left: 67px;
+}
+
+.now {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 57px;
+  margin-left: 185px;
+  margin-bottom: 30px;
+}
+
+.container2 {
+  max-width: 1166px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.container2 .photo {
+  width: 758px;
+  height: 902px;
+}
+.container2 .photo2 {
+  position: relative;
+  margin-bottom: 42px;
+}
+.container2 .libero {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container2 .animal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 837px;
+  margin-left: 45px;
+}
+.container2 .forest {
+  width: 362px;
+  height: 212px;
+}
+.container2 .spilo {
+  width: 362px;
+  height: 212px;
+}
+.container2 .qalaqi {
+  width: 362px;
+  height: 212px;
 }/*# sourceMappingURL=global.css.map */
