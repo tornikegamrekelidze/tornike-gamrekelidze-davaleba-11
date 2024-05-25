@@ -1,0 +1,35 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  @include container;
+
+  ul {
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+  }
+  a {
+    @include header1;
+  }
+  .women {
+    margin-left: 26px;
+    margin-top: 14px;
+  }
+}
+
+.container1 {
+  @include container;
+}
+
+.style11 {
+  margin-top: 42px;
+  .tranding {
+    @include tranding;
+  }
+  .card-1 {
+    border: 2px solid red;
+    height: 357px;
+  }
+}
