@@ -302,4 +302,41 @@ body {
 .container2 .qalaqi {
   width: 362px;
   height: 212px;
+}
+
+.f-div {
+  display: flex;
+  background-color: #243043;
+  width: 1519px;
+  height: 201px;
+  margin-top: 36px;
+}
+.f-div .f-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-left: 140px;
+  margin-top: 59px;
+}
+.f-div .saxli {
+  color: #818687;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.f-div .h23 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.f-div .geolab {
+  width: 38px;
+  height: 40px;
+  margin-left: 426px;
+  margin-top: 58px;
 }/*# sourceMappingURL=global.css.map */

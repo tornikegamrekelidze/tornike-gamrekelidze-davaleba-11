@@ -101,3 +101,37 @@
   font-weight: 700;
   line-height: normal;
 }
+
+@mixin f-div {
+  display: flex;
+  background-color: #243043;
+  width: 1519px;
+  height: 201px;
+  margin-top: 36px;
+}
+
+@mixin f-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-left: 140px;
+  margin-top: 59px;
+}
+
+@mixin sityvebi {
+  color: #818687;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin cardd {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

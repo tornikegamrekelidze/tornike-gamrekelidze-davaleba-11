@@ -97,3 +97,23 @@ body {
     height: 212px;
   }
 }
+
+.f-div {
+  @include f-div;
+  .f-card {
+    @include f-card;
+  }
+  .saxli {
+    @include sityvebi;
+  }
+
+  .h23 {
+    @include cardd;
+  }
+  .geolab {
+    width: 38px;
+    height: 40px;
+    margin-left: 426px;
+    margin-top: 58px;
+  }
+}
